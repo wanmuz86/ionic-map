@@ -13,8 +13,11 @@ export class HomePage {
  
 
   constructor(public navCtrl: NavController) {
-  	this.loadMap();
+  	
 
+  }
+  ionViewDidLoad(){
+  	this.loadMap();
   }
   loadMap(){
  
